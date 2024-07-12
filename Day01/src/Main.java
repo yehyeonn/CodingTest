@@ -16,5 +16,7 @@ public class Main {
             }
         }
         if(cnt <  num2) System.out.println(0);
+
+        sc.close();
     }
 }
