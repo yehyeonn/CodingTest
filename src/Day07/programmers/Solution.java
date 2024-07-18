@@ -1,6 +1,6 @@
 package Day07.programmers;
-
 class Solution {
+
     public int[] solution(String[] park, String[] routes) {
         int x = 0, y = 0;
         int width = park.length;
@@ -37,24 +37,24 @@ class Solution {
             }
 
             int moveX = x, moveY = y;
-            boolean fleg = true;
+            boolean flag = true;
             for(int i = 0; i < step; i++) {
                 moveX += opX;
                 moveY += opY;
 
                 if(moveX < 0 || moveX >= width || moveY < 0 || moveY >= height || park[moveX].charAt(moveY) == 'X') {
-                    fleg = false;
+                    flag = false;
                     break;
                 }
             }
 
-            if(fleg) {
+            if(flag) {
                 x = moveX;
                 y = moveY;
             }
         }
 
-            int[] answer = new int[]{x, y};
-            return answer;
+        int[] answer = new int[]{x, y};
+        return answer;
     }
 }
