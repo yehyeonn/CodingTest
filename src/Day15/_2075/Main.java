@@ -19,7 +19,7 @@ public class Main {
             }
         }
 
-        for (int j = 1; j < N; j++) {
+        for (int i = 0; i < N-1; i++) {
             queue.poll();
         }
 
