@@ -20,7 +20,7 @@ public class Main {
             this.y = y;
             this.z = z;
         }
-    }
+    }   // end Tomato();
 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -46,7 +46,7 @@ public class Main {
         }   // end for
 
         System.out.println(bfs());
-    }
+    }   // end main()
 
     private static int bfs() {
         int[] dx = {0, 0, -1, 1, 0, 0};
@@ -82,5 +82,5 @@ public class Main {
         if(max == 1)    // 최대값이 1
             return 0;
         return max - 1;
-    }
+    }   // end bfs()
 }
