@@ -1,4 +1,5 @@
 package Day32._10815;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,19 +12,18 @@ public class Main {
         StringTokenizer st;
         StringBuilder sb = new StringBuilder();
 
-        int n, m;
-        HashMap<String, Integer> owned = new HashMap<>();
+        HashMap<String, Integer> NMap = new HashMap<>();
 
-        n = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
-        for (int i=0; i<n; i++) {
-            owned.put(st.nextToken(), 0);
+        for (int i=0; i< N; i++) {
+            NMap.put(st.nextToken(), 0);
         }
 
-        m = Integer.parseInt(br.readLine());
+        int M = Integer.parseInt(br.readLine());
         st = new StringTokenizer(br.readLine());
-        for (int i=0; i<m; i++) {
-            if (owned.get(st.nextToken()) != null) {
+        for (int i=0; i< M; i++) {
+            if (NMap.get(st.nextToken()) != null) {
                 sb.append("1 ");
             } else {
                 sb.append("0 ");
