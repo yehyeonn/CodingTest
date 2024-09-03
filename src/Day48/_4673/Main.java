@@ -17,7 +17,6 @@ public class Main {
 
     private static int d(int i) {
         int sum = i;
-
         while (i != 0) {
             sum = sum + (i % 10);
             i = i / 10;
