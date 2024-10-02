@@ -1,4 +1,4 @@
-package Day62.programmers1;
+package Day62.programmers;
 
 import java.util.*;
 
