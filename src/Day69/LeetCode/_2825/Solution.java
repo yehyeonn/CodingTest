@@ -1,15 +1,5 @@
 package Day69.LeetCode._2825;
 
-public class Main {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        String str1 = "abc";
-        String str2 = "ad";
-
-        System.out.print(solution.canMakeSubsequence(str1, str2));
-    }
-}
-
 class Solution {
     public boolean canMakeSubsequence(String str1, String str2) {
         int idx1 = 0, idx2 = 0;
