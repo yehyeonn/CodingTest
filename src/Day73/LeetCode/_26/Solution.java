@@ -1,14 +1,14 @@
 package Day73.LeetCode._26;
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int n = 0;
+        int k = 0;
 
         for(int i = 1; i < nums.length; i++) {
-            if(nums[n] != nums[i]) {
-                n++;
-                nums[n] = nums[i];
+            if(nums[k] != nums[i]) {
+                k++;
+                nums[k] = nums[i];
             }
         }
-        return n+1;
+        return k+1;
     }
 }
