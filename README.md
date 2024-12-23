@@ -343,33 +343,33 @@
 - 분기별 분화된 대장균의 개체 수 구하기(MySQL)
 - 특정 물고기를 잡은 총 수 구하기(MySQL)
 #### LeetCode
-- 2825. Make String a Subsequence Using Cyclic Increments(String, Two Pointers)
+- 2825: Make String a Subsequence Using Cyclic Increments(String, Two Pointers)
 
  
 ### Day71(LeetCode)
-- 9. Palindrome Number(수학)
+- 9: Palindrome Number(수학)
 
  
 ### Day72(LeetCode)
-- 570. Managers with at Least 5 Direct Reports(DataBase)
+- 570: Managers with at Least 5 Direct Reports(DataBase)
 
  
 ### Day73(LeetCode)
-- 26. Remove Duplicates from Sorted Array(Array, Two Pointers)
+- 26: Remove Duplicates from Sorted Array(Array, Two Pointers)
 
  
 ### Day74(LeetCode)
-- 80. Remove Duplicates from Sorted Array II(Array, Two Pointers)
+- 80: Remove Duplicates from Sorted Array II(Array, Two Pointers)
 
  
 ### Day75(LeetCode)
-- 189. Rotate Array(Array, Two Pointers, Math)
+- 189: Rotate Array(Array, Two Pointers, Math)
 
  
 ### Day76(LeetCode)
-- 121. Best Time to Buy and Sell Stock(Array, Dynamic Programming)
+- 121: Best Time to Buy and Sell Stock(Array, Dynamic Programming)
 
  
 ### Day77(LeetCode)
-- 238. Product of Array Except Self(Array, Prefix Sum)
+- 238: Product of Array Except SelfArray, Prefix Sum)
  
