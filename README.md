@@ -345,6 +345,12 @@
 #### LeetCode
 - 2825: Make String a Subsequence Using Cyclic Increments(String, Two Pointers)
 
+
+### Day70(프로그래머스)
+- 예산(수학, 구현, Summer/Winter Coding(~2018))
+- 상품 별 오프라인 매출 구하기(MySQL)
+- 주문량이 많은 아이스크림들 조회하기(MySQL)
+
  
 ### Day71(LeetCode)
 - 9: Palindrome Number(수학)
