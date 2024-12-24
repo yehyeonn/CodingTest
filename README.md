@@ -377,5 +377,8 @@
 
  
 ### Day77(LeetCode)
-- 238: Product of Array Except SelfArray, Prefix Sum)
+- 238: Product of Array Except Self(Array, Prefix Sum)
  
+ 
+### Day78(LeetCode)
+- 134: Gas Station(Array, Greedy)
