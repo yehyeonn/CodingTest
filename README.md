@@ -390,3 +390,7 @@
 
 ### Day80(LeetCode)
 - 58: Length of Last Word(String)
+
+
+### Day81(LeetCode)
+- 14: Longest Common Prefix(String, Trie)
