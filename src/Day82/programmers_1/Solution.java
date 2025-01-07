@@ -1,4 +1,4 @@
-package Day82.programmers;
+package Day82.programmers_1;
 
 class Solution {
     public int solution(int[] wallet, int[] bill) {

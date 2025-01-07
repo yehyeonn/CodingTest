@@ -393,4 +393,9 @@
 
 
 ### Day81(LeetCode)
-- 14: Longest Common Prefix(String, Trie)
+- 14: Longest Common Prefix(St0ring, Trie)
+
+
+### Day82(프로그래머스)
+- 지폐 접기(PCCE9)
+- 데이터 분석(PCCE10)
